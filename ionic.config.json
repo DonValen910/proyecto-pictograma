@@ -1,0 +1,7 @@
+{
+  "name": "proyecto-pictograma",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
