@@ -8,6 +8,8 @@
 }
 
 .card-img {
-  width: 384px;
-  object-fit: cover;
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover; /* Mantiene la proporción de la imagen */
 }
