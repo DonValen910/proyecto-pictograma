@@ -1,6 +1,12 @@
 .header {
-  display: flex;
-  align-items: center;
+  display: grid;
+  justify-items: center;
+  padding: 20px 0;
+}
+
+.header div {
+  display: grid;
+  justify-items: center;
 }
 
 .logo-img {
@@ -11,5 +17,14 @@
   width: 100%;
   height: auto;
   display: block;
-  object-fit: cover; /* Mantiene la proporción de la imagen */
+  object-fit: cover;
+  /* Mantiene la proporción de la imagen */
+  background: #fff;
+}
+
+span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  font-size: clamp(1.5rem, 4vw, 3rem);
 }
